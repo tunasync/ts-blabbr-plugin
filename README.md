@@ -36,7 +36,7 @@ On the Lua Plugin section of Teamspeak > Options > Addons, click Settings and ti
 
 ## Author
 
-* [tunasquid](https://github.com/tunasquid)
+* [tunasync](https://github.com/tunasync)
 
 ## License
 
