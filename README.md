@@ -6,7 +6,7 @@ A Lua plugin for Teamspeak 3 that will show the name of the person speaking on t
 
 Download this repository. You only need the `blabbr` directory containing the Lua scripts.
 
-These instructions have been tested on Windows 10. The plugin should work on Linux but the plugins directory will be in a different location.
+These instructions have been tested on Windows 10. The plugin should work on Linux and Mac but the plugins directory will be in a different location (the plugin has been tested by other users).
 
 ## Prerequisites
 
@@ -18,9 +18,19 @@ Type `lua` in the search field to find the lua plugin. Click on this and then cl
 
 ![Lua addons](media/ts3-addons.png)
 
-Verify that the following directory exists (replace `your-user-name` with your actual user name on Windows):
+Verify that the following directory exists (replace `your-user-name` with your actual user name on Windows and Mac):
+
+### Windows plugins directory
 
 `C:\Users\your-user-name\AppData\Roaming\TS3Client\plugins\lua_plugin`
+
+### Linux plugins directory
+
+`~/.ts3client/plugins/lua_plugin`
+
+### Mac plugins directory
+
+`/Users/your-user-name/Library/Application Support/TeamSpeak 3/plugins/lua_plugin`
 
 It should have some files in it from the installation of the Lua plugin. If you don't see any files there, go back to Lua Plugin > Settings and try ticking and unticking the testmodule.
 
