@@ -9,7 +9,7 @@ local function onTalkStatusChangeEvent(serverConnectionHandlerID, status, isRece
 	if status == ts3defs.TalkStatus.STATUS_TALKING then
 		local displayName, error = ts3.getClientDisplayName(serverConnectionHandlerID, clientID)
 		local uniqueIdentifier, error = ts3.getClientVariableAsString(serverConnectionHandlerID, clientID, ts3defs.ClientProperties.CLIENT_UNIQUE_IDENTIFIER)
-		ts3.printMessage(serverConnectionHandlerID, "> [URL=client://" .. clientID .. "/" .. uniqueIdentifier .. "][color=green]" .. displayName .. "[/color][/URL]", 1)
+		ts3.printMessage(serverConnectionHandlerID, ":: [URL=client://" .. clientID .. "/" .. uniqueIdentifier .. "][color=green]" .. displayName .. "[/color][/URL]", 1)
 	end    
 end
 
